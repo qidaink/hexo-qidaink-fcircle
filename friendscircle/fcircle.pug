@@ -1,0 +1,17 @@
+//- =====================================================================
+//- FileInstructions：butterfly主题友链朋友圈模板文件
+//- Repository: https://github.com/Akilarlxh/Butterfly_candy_plugins
+//- Author: Akilarlxh
+//- Instructions: 仅供自己学习使用，如有需求，还请使用作者原插件
+//- =====================================================================
+link(rel="stylesheet" href = fcircle_css  media = "defer" onload = "this.media='all'")
+#friend_link_circle
+  script.
+    requests_url = '!{requests_url}';
+    maxnumber = !{maxnumber};
+    addnumber = !{addnumber};
+    nofollow = !{nofollow};
+    opentype = '!{opentype}';
+    preload = '!{preload}';
+    error_img = '!{error_img}';
+  script(async data-pjax src = fcircle_js)
