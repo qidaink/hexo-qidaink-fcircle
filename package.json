@@ -1,6 +1,6 @@
 {
   "name": "hexo-qidaink-fcircle",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "The friends circle of Cloud And Sea.",
   "main": "index.js",
   "scripts": {
