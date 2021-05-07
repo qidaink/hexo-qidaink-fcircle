@@ -136,7 +136,7 @@ var data_handle = (nofollow, data, maxnumber) => {
   }
   /* ------ 加载更多按钮 ----- */
   if (data[1].length - maxnumber > 0) {
-    html_item += '<div style="text-align: center;"><button type="button" style="background: var(--btn-bg);color: var(--btn-color);width: fit-content;margin: 0 auto;font-size: 20px;font-weight: bolder;border-radius: 13px;padding: 8px 51px;" onclick="load_more_post()">加载更多...</button></div>'
+    html_item += '<div style="text-align: center;"><button type="button" style="width: fit-content;margin: 0 auto;font-size: 15px;font-weight: bolder;border-radius: 13px;padding: 8px 51px;" onclick="load_more_post()">加载更多...</button></div>'
   }
 
   var friend_link_circle = document.getElementById('friend_link_circle');
