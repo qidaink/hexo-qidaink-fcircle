@@ -2,6 +2,7 @@
 * FileInstructions：butterfly主题友链朋友圈js文件
 * Repository: https://github.com/Akilarlxh/Butterfly_candy_plugins
 * Author: Akilarlxh
+* Modify: qidaink
 * Instructions: 仅供自己学习使用，如有需求，还请使用作者原插件
 * =====================================================================*/
 

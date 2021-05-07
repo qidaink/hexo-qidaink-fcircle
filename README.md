@@ -1,4 +1,4 @@
-# 自用`butterfly`友链朋友圈插件
+# 自用友链朋友圈插件
 
 &emsp;&emsp;本插件仅为方便自己学习使用(本想好好学习一番，可惜，没看懂，心态就很崩😭)，如有需求，还请使用原作者插件。
 
@@ -12,6 +12,29 @@
         <td align="left"><a href="https://github.com/Akilarlxh/Butterfly_candy_plugins/tree/master/hexo-butterfly-fcircle" target="_blank">https://github.com/Akilarlxh/Butterfly_candy_plugins/tree/master/hexo-butterfly-fcircle</td>
     </tr>
 </table>
+
+# `NexT`主题友链朋友圈配置
+
+&emsp;&emsp;在店长的`butterfly`主题的基础上进行修改，移植到`NexT`主题。不过要注意的是，依然只能获取原`api`支持的那些主题。
+
+- 在主题配置文件菜单配置栏添加以下信息
+
+```yaml
+friendscircle: /friendscircle/ || fas fa-user-friends
+```
+
+- 在站点配置文件中添加以下配置
+
+```yaml
+fcircle:
+  enable: true          # 【必选】由于使用生成器创建页面，若这里为false，则无该页面，会一直加载
+  requests_url: ""      # 【必选】添加自己的友链朋友圈 api 
+  # 【必选】添加自己的友链朋友圈 api 
+  fcircle_custom_css: "https://unpkg.com/browse/hexo-qidaink-fcircle@latest/friendscircle/fcircle-custom.css"
+  front_matter:
+    title: 欢迎来到我的朋友圈页面  # 【必选】由于使用生成器创建页面，这里还是需要一个标题的
+    comments: false            # 【可选】评论系统，看自己需不需要吧
+```
 
 # hexo-butterfly-fcircle
 

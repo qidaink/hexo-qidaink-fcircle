@@ -1,0 +1,23 @@
+{#*=====================================================================
+* FileName: fcircle.njk
+* FileInstructions: 友链朋友圈模板文件
+* Author: qidaink
+*=======================================================================#}
+
+{# 加载默认css样式文件 #}
+<link rel="stylesheet" href = "{{ fcircle_css }}" media="defer" onload="this.media='all'"/>
+{# 对于NexT主题，缺少butterfly归档文章的样式，所以需要引入 #}
+<link rel="stylesheet" href = "{{ fcircle_custom_css }}" media="defer" onload="this.media='all'"/>
+
+<div id="friend_link_circle">
+    <script {{ pjax }}>
+        requests_url = "{{ requests_url }}";
+        maxnumber = {{ maxnumber }};
+        addnumber = {{ addnumber }};
+        nofollow = {{ nofollow }};
+        opentype = "{{ opentype }}";
+        preload = "{{ preload }}";
+        error_img = "{{ error_img }}";
+    </script>
+    <script {{ pjax }} async="async"  src = "{{ fcircle_js }}"></script>
+</div> 
